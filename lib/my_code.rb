@@ -22,5 +22,5 @@ def reduce(array, starting_value=nil)
     first = yield(first, array[index])
     index += 1
   end
-    
+  first
 end 
